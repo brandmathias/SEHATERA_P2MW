@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  Prototipe platform pendampingan sosial lansia berbasis komunitas, relawan, dan kecerdasan buatan<br/>
-  yang dikembangkan dalam rangka Program <strong>P2MW</strong>.
+  Prototipe platform pendampingan sosial lansia berbasis komunitas, relawan, dan kecerdasan buatan (AI)<br/>
+  yang dikembangkan dalam rangka <strong>Program P2MW</strong>.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
   📄 <a href="#-deskripsi-proyek">Deskripsi</a> •
   ✨ <a href="#-fitur-utama">Fitur</a> •
   👥 <a href="#-peran-pengguna">Pengguna</a> •
-  🧠 <a href="#-catatan-penting-disclaimer">Disclaimer</a>
+  ⚠️ <a href="#-catatan-penting-disclaimer">Disclaimer</a>
 </p>
 
 ---
@@ -36,112 +36,123 @@
 ## 📝 Deskripsi Proyek
 
 **SEHATERA** adalah sebuah **platform prototipe pendampingan sosial bagi lansia** yang dirancang untuk membantu
-mengurangi rasa kesepian, menjaga kesehatan mental, serta meningkatkan kualitas hidup lansia melalui
-interaksi komunitas, pendampingan relawan, dan konten berbasis **Artificial Intelligence (AI)**.
+mengurangi rasa kesepian, menjaga ketajaman mental, serta meningkatkan kualitas hidup lansia melalui
+interaksi komunitas, pendampingan relawan, dan pemanfaatan **Artificial Intelligence (AI)**.
 
 Proyek ini dikembangkan sebagai bagian dari **Program Pembinaan Mahasiswa Wirausaha (P2MW)** dan
-berfokus pada eksplorasi solusi digital di bidang **kesehatan sosial dan emosional lansia**.
-SEHATERA **bukan produk komersial**, melainkan **prototipe konseptual** untuk kebutuhan kompetisi dan pengembangan ide.
+berfokus pada solusi inovatif di bidang **kesehatan sosial dan emosional lansia**.  
+SEHATERA dikembangkan sebagai **prototipe konseptual**, bukan produk komersial.
 
 ---
 
 ## ✨ Fitur Utama
 
 ### 🏠 Beranda Lansia
-Menampilkan ringkasan layanan utama, konten harian, serta akses cepat ke fitur komunitas dan pendampingan.
+Beranda Lansia merupakan **halaman utama** yang pertama kali diakses oleh pengguna lansia.  
+Halaman ini berfungsi sebagai pusat navigasi dan ringkasan layanan.
+
+Fitur yang tersedia pada Beranda Lansia meliputi:
+- Ringkasan fitur utama SEHATERA
+- Akses cepat ke halaman Layanan Lansia
+- Akses ke komunitas dan sesi pendampingan
+- Tampilan antarmuka sederhana dan ramah lansia
 
 ![Beranda Lansia](assets/Beranda_Lansia.png)
 
 ---
 
-### 🧠 AI Curated Content
-Konten harian berupa:
-- Artikel ringan
-- Kutipan inspiratif
-- Rekomendasi berbasis minat & suasana hati
+### 🧠 Layanan Lansia (AI Curated Content & Brain Training)
+Halaman **Layanan Lansia** merupakan pusat konten dan aktivitas berbasis AI yang ditujukan untuk
+menjaga kesehatan mental dan emosional lansia.
 
-Konten dihasilkan secara otomatis menggunakan **Gemini AI**.
+Di dalam halaman ini terdapat dua fitur utama:
+
+#### 🧠 AI Curated Content
+Konten harian yang dihasilkan secara otomatis menggunakan **Gemini AI**, meliputi:
+- Artikel ringan dan informatif
+- Kutipan inspiratif harian
+- Rekomendasi konten berdasarkan minat dan suasana hati lansia
+
+#### 🧩 Daily Brain Training
+Fitur latihan otak harian untuk menjaga daya ingat dan konsentrasi, berupa:
+- Puzzle interaktif
+- Kuis ringan
+
+Seluruh konten disajikan dengan bahasa sederhana dan tampilan visual yang ramah lansia.
 
 ![Layanan Lansia](assets/Layanan_Lansia.png)
 
 ---
 
-### 🧩 Daily Brain Training
-Fitur latihan otak harian seperti:
-- Puzzle
-- Kuis ringan
+### 👥 Community Hub Lansia
+Community Hub berfungsi sebagai ruang interaksi sosial antar lansia berdasarkan minat dan hobi.
 
-Bertujuan menjaga daya ingat dan konsentrasi lansia secara menyenangkan.
-
----
-
-### 👥 Community Hub
-Forum dan grup berbasis minat, seperti:
-- Berkebun
-- Musik lawas
-- Cerita pengalaman hidup
-
-Mendorong interaksi sosial antar lansia.
+Fitur Community Hub meliputi:
+- Grup diskusi berbasis hobi (Berkebun, Musik Lawas, dll)
+- Forum berbagi cerita dan pengalaman hidup
+- Interaksi sosial yang mendorong rasa kebersamaan
 
 ![Komunitas Lansia](assets/Komunitas_Lansia.png)
 
 ---
 
 ### 📅 Session Booking & Scheduling
-Lansia dapat memesan sesi pendampingan dengan relawan melalui:
+Fitur ini memungkinkan lansia melakukan pemesanan sesi pendampingan dengan relawan secara mandiri.
+
+Jenis sesi yang tersedia:
 - Chat
 - Voice Call
 - Video Call
+
+Sistem ini membantu lansia mendapatkan pendampingan emosional secara terjadwal dan terstruktur.
 
 ![Jadwal Relawan](assets/Jadwal_Relawan.png)
 
 ---
 
 ### 💳 Payment Gateway Simulation
-Simulasi proses checkout layanan pendampingan menggunakan:
+Simulasi proses checkout layanan pendampingan dengan metode:
 - QRIS
 - Transfer Bank
 
-⚠️ **Bersifat simulasi, tidak terhubung ke sistem pembayaran nyata.**
-
----
-
-### ♿ Accessibility Settings
-Penyesuaian antarmuka khusus lansia:
-- Ukuran teks (font size)
-- Mode Gelap (Dark Mode)
-- Kontras warna ramah mata
+⚠️ Fitur ini **bersifat simulasi** dan tidak terhubung dengan sistem pembayaran nyata.
 
 ---
 
 ## 👥 Peran Pengguna
 
 ### 👴 Lansia (Elderly)
-- Mengakses konten harian berbasis AI
-- Mengikuti komunitas
-- Bermain puzzle
-- Memesan sesi pendampingan dengan relawan
+- Mengakses konten AI harian
+- Mengikuti komunitas berbasis minat
+- Bermain puzzle & kuis
+- Memesan sesi pendampingan relawan
 
 ---
 
 ### 🧑‍🤝‍🧑 Relawan (Volunteer)
-- Mengelola permintaan sesi masuk
-- Mengatur jadwal ketersediaan
-- Memberikan dukungan emosional kepada lansia
+Relawan berperan sebagai pendamping emosional lansia.
+
+Fitur yang tersedia untuk relawan meliputi:
+
+#### 📊 Dashboard Relawan
+Menampilkan ringkasan aktivitas relawan, permintaan sesi masuk, dan jadwal pendampingan.
 
 ![Dashboard Relawan](assets/Dashboard_Relawan.png)
 
 ---
 
-### 📋 Riwayat & Manajemen Sesi
-Relawan dapat memantau histori pendampingan yang telah dilakukan.
+#### 📋 Riwayat Sesi Pendampingan
+Menampilkan histori sesi pendampingan yang telah dilakukan oleh relawan.
 
 ![Riwayat Sesi Relawan](assets/RiwayatSesi_Relawan.png)
 
 ---
 
-### ⚙️ Pengaturan Akun Relawan
-Manajemen profil dan preferensi relawan.
+#### ⚙️ Pengaturan Akun Relawan
+Relawan dapat mengelola:
+- Profil akun
+- Preferensi pendampingan
+- Informasi ketersediaan waktu
 
 ![Pengaturan Relawan](assets/Pengaturan_Relawan.png)
 
@@ -164,19 +175,9 @@ Mahasiswa **Program Studi Teknik Informatika**
 🚨 **APLIKASI INI MERUPAKAN PROTOTIPE**
 
 SEHATERA dikembangkan **khusus untuk keperluan P2MW dan akademik**.
-
 - Tidak terintegrasi dengan sistem layanan kesehatan resmi
 - Tidak digunakan untuk layanan medis atau psikologis nyata
 - Seluruh data bersifat simulasi
-
----
-
-## 🎯 Tujuan Pengembangan
-
-- Menghadirkan solusi digital untuk kesejahteraan lansia
-- Mengurangi isolasi sosial pada usia lanjut
-- Menjadi model awal pengembangan platform pendampingan lansia
-- Mendukung inovasi mahasiswa dalam program P2MW
 
 ---
 
@@ -184,7 +185,7 @@ SEHATERA dikembangkan **khusus untuk keperluan P2MW dan akademik**.
 
 <p align="center">
   💚 <strong>Made with Care for Elderly Well-Being</strong><br/><br/>
-  Dikembangkan sebagai <strong>Prototype P2MW</strong> oleh Mahasiswa Teknik Informatika<br/>
+  Prototype P2MW — Teknik Informatika<br/>
   Universitas Sam Ratulangi
 </p>
 
