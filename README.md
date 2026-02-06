@@ -1,38 +1,193 @@
+<p align="center">
+  <img src="assets/logo.png" alt="SEHATERA Logo" width="140"/>
+</p>
 
-# Proyek SEHATERA - Dokumentasi Alur & Fitur
+<h1 align="center">🌿 SEHATERA</h1>
 
-Aplikasi ini dirancang untuk menghubungkan lansia dengan pendamping yang penuh kasih melalui konten AI dan interaksi komunitas.
+<p align="center">
+  <strong>Social & Emotional Health Assistant for Elderly</strong><br/>
+  AI-Powered Elderly Companion Platform (Prototype)
+</p>
 
-## 1. Peran Pengguna (User Roles)
+<p align="center">
+  Prototipe platform pendampingan sosial lansia berbasis komunitas, relawan, dan kecerdasan buatan<br/>
+  yang dikembangkan dalam rangka Program <strong>P2MW</strong>.
+</p>
 
-### A. Pengguna Lansia (Elderly) - *Main User*
-- **Tujuan:** Mendapatkan teman mengobrol, konten edukasi, dan hiburan harian.
-- **Alur Utama:** Daftar -> Melengkapi Minat -> Interaksi Harian (AI Content/Puzzle) -> Pesan Sesi Pendampingan -> Berbagi di Komunitas.
-- **Halaman Utama:**
-  - `src/app/page.tsx`: **Elderly Home Dashboard**. Menampilkan sapaan hangat, konten AI harian, jadwal sesi, dan teka-teki asah otak.
-  - `src/app/sessions/book/page.tsx`: **Book a Companion Session**. Antarmuka pesan sesi dengan tombol besar dan jadwal yang mudah dibaca.
-  - `src/app/video-call/page.tsx`: **Active Video Companion Session**. Layar video call minimalis dengan kontrol berlabel jelas untuk lansia.
-  - `src/app/community/page.tsx`: **Community Hub Feed**. Forum sosial dengan teks besar dan navigasi grup minat yang bersih.
-  - `src/app/subscriptions/page.tsx`: Upgrade paket layanan.
-  - `src/app/checkout/page.tsx`: Gateway pembayaran simulasi (QRIS/Transfer).
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15.3.8-black" />
+  <img src="https://img.shields.io/badge/React-18.3.1-blue" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-blue" />
+  <img src="https://img.shields.io/badge/Firebase-11.9.1-orange" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4.1-teal" />
+  <img src="https://img.shields.io/badge/shadcn%2Fui-UI%20Components-lightgrey" />
+  <img src="https://img.shields.io/badge/Genkit-1.14.1-purple" />
+</p>
 
-### B. Relawan (Volunteer) - *Companion*
-- **Tujuan:** Memberikan pendampingan sosial kepada lansia.
-- **Alur Utama:** Login -> Pantau Permintaan di Dasbor -> Terima Permintaan Sesi -> Masuk ke Ruang Chat/Video pada jadwalnya.
-- **Halaman Utama:**
-  - `src/app/dashboard/volunteer/page.tsx`: **Volunteer Management Dashboard**. Manajemen permintaan sesi, jadwal mendatang, dan riwayat bantuan.
+<p align="center">
+  📄 <a href="#-deskripsi-proyek">Deskripsi</a> •
+  ✨ <a href="#-fitur-utama">Fitur</a> •
+  👥 <a href="#-peran-pengguna">Pengguna</a> •
+  🧠 <a href="#-catatan-penting-disclaimer">Disclaimer</a>
+</p>
 
-### C. Super Administrator (Admin) - *Super Master*
-- **Tujuan:** Mengelola ekosistem platform secara penuh.
-- **Alur Utama:** Pantau Statistik -> Verifikasi Pembayaran Manual -> Moderasi User & Konten -> Support Chat.
-- **Halaman Utama:**
-  - `src/app/dashboard/admin/page.tsx`: **Super Admin Panel**. Manajemen pengguna lengkap, antrean verifikasi bayar, moderasi konten, dan statistik.
+---
 
-## 2. Fitur Unggulan (Core Features)
+## 📝 Deskripsi Proyek
 
-1. **AI Curated Content:** Konten harian (artikel & kutipan) yang dihasilkan oleh Gemini AI berdasarkan mood dan minat lansia.
-2. **Senior-Friendly UI:** Penggunaan font Belleza (Headline) dan Alegreya (Body), tombol berukuran besar, dan palet warna pastel yang menenangkan.
-3. **Session Scheduling:** Sistem booking sesi dengan berbagai media (Chat, Suara, Video).
-4. **Theme Toggle:** Perpindahan Mode Terang dan Gelap yang mudah diakses dari Header atau Pengaturan.
-5. **Modern Payment Gateway:** Simulasi checkout dengan metode pembayaran modern (QRIS, Kartu Kredit, Bank).
-6. **Community Groups:** Grup tematik berbasis hobi untuk mendorong lansia tetap aktif bersosialisasi.
+**SEHATERA** adalah sebuah **platform prototipe pendampingan sosial bagi lansia** yang dirancang untuk membantu
+mengurangi rasa kesepian, menjaga kesehatan mental, serta meningkatkan kualitas hidup lansia melalui
+interaksi komunitas, pendampingan relawan, dan konten berbasis **Artificial Intelligence (AI)**.
+
+Proyek ini dikembangkan sebagai bagian dari **Program Pembinaan Mahasiswa Wirausaha (P2MW)** dan
+berfokus pada eksplorasi solusi digital di bidang **kesehatan sosial dan emosional lansia**.
+SEHATERA **bukan produk komersial**, melainkan **prototipe konseptual** untuk kebutuhan kompetisi dan pengembangan ide.
+
+---
+
+## ✨ Fitur Utama
+
+### 🏠 Beranda Lansia
+Menampilkan ringkasan layanan utama, konten harian, serta akses cepat ke fitur komunitas dan pendampingan.
+
+![Beranda Lansia](assets/Beranda_Lansia.png)
+
+---
+
+### 🧠 AI Curated Content
+Konten harian berupa:
+- Artikel ringan
+- Kutipan inspiratif
+- Rekomendasi berbasis minat & suasana hati
+
+Konten dihasilkan secara otomatis menggunakan **Gemini AI**.
+
+![Layanan Lansia](assets/Layanan_Lansia.png)
+
+---
+
+### 🧩 Daily Brain Training
+Fitur latihan otak harian seperti:
+- Puzzle
+- Kuis ringan
+
+Bertujuan menjaga daya ingat dan konsentrasi lansia secara menyenangkan.
+
+---
+
+### 👥 Community Hub
+Forum dan grup berbasis minat, seperti:
+- Berkebun
+- Musik lawas
+- Cerita pengalaman hidup
+
+Mendorong interaksi sosial antar lansia.
+
+![Komunitas Lansia](assets/Komunitas_Lansia.png)
+
+---
+
+### 📅 Session Booking & Scheduling
+Lansia dapat memesan sesi pendampingan dengan relawan melalui:
+- Chat
+- Voice Call
+- Video Call
+
+![Jadwal Relawan](assets/Jadwal_Relawan.png)
+
+---
+
+### 💳 Payment Gateway Simulation
+Simulasi proses checkout layanan pendampingan menggunakan:
+- QRIS
+- Transfer Bank
+
+⚠️ **Bersifat simulasi, tidak terhubung ke sistem pembayaran nyata.**
+
+---
+
+### ♿ Accessibility Settings
+Penyesuaian antarmuka khusus lansia:
+- Ukuran teks (font size)
+- Mode Gelap (Dark Mode)
+- Kontras warna ramah mata
+
+---
+
+## 👥 Peran Pengguna
+
+### 👴 Lansia (Elderly)
+- Mengakses konten harian berbasis AI
+- Mengikuti komunitas
+- Bermain puzzle
+- Memesan sesi pendampingan dengan relawan
+
+---
+
+### 🧑‍🤝‍🧑 Relawan (Volunteer)
+- Mengelola permintaan sesi masuk
+- Mengatur jadwal ketersediaan
+- Memberikan dukungan emosional kepada lansia
+
+![Dashboard Relawan](assets/Dashboard_Relawan.png)
+
+---
+
+### 📋 Riwayat & Manajemen Sesi
+Relawan dapat memantau histori pendampingan yang telah dilakukan.
+
+![Riwayat Sesi Relawan](assets/RiwayatSesi_Relawan.png)
+
+---
+
+### ⚙️ Pengaturan Akun Relawan
+Manajemen profil dan preferensi relawan.
+
+![Pengaturan Relawan](assets/Pengaturan_Relawan.png)
+
+---
+
+## 👨‍💻 Tim Pengembang
+
+Mahasiswa **Program Studi Teknik Informatika**  
+**Universitas Sam Ratulangi**
+
+- **ALIF FIRDAUS PUTRA MALLYSA**
+- **BRANDO MATHIAS ZUSRIADI**
+- **PHILIA SLAVKA EUNIKE MAILANGKAY**
+- **SYIFABELA SURATINOYO**
+
+---
+
+## ⚠️ Catatan Penting (Disclaimer)
+
+🚨 **APLIKASI INI MERUPAKAN PROTOTIPE**
+
+SEHATERA dikembangkan **khusus untuk keperluan P2MW dan akademik**.
+
+- Tidak terintegrasi dengan sistem layanan kesehatan resmi
+- Tidak digunakan untuk layanan medis atau psikologis nyata
+- Seluruh data bersifat simulasi
+
+---
+
+## 🎯 Tujuan Pengembangan
+
+- Menghadirkan solusi digital untuk kesejahteraan lansia
+- Mengurangi isolasi sosial pada usia lanjut
+- Menjadi model awal pengembangan platform pendampingan lansia
+- Mendukung inovasi mahasiswa dalam program P2MW
+
+---
+
+<hr/>
+
+<p align="center">
+  💚 <strong>Made with Care for Elderly Well-Being</strong><br/><br/>
+  Dikembangkan sebagai <strong>Prototype P2MW</strong> oleh Mahasiswa Teknik Informatika<br/>
+  Universitas Sam Ratulangi
+</p>
+
+<p align="center">
+  © 2025 SEHATERA — Academic Prototype Only
+</p>
