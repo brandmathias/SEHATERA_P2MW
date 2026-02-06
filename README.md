@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="SEHATERA Logo" width="140"/>
+  <img src="assets/logo.png" alt="SEHATERA Logo" width="200"/>
 </p>
 
 <h1 align="center">🌿 SEHATERA</h1>
