@@ -1,0 +1,14 @@
+{
+  "curated_article": {
+    "url": "https://picsum.photos/seed/garden/600/600",
+    "width": 600,
+    "height": 600,
+    "alt": "Bunga di halaman"
+  },
+  "puzzle_icon": {
+    "url": "https://picsum.photos/seed/puzzle/400/400",
+    "width": 400,
+    "height": 400,
+    "alt": "Puzzle"
+  }
+}

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 40% 98%;
+    --foreground: 260 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 260 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 20% 15%;
+
+    --primary: 271 81% 56%; /* Vibrant Purple */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 271 81% 96%;
+    --secondary-foreground: 271 81% 56%;
+
+    --muted: 260 20% 94%;
+    --muted-foreground: 260 10% 45%;
+
+    --accent: 271 81% 94%;
+    --accent-foreground: 271 81% 56%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 260 20% 92%;
+    --input: 260 20% 92%;
+    --ring: 271 81% 56%;
+
+    --radius: 1.2rem;
+  }
+
+  .dark {
+    --background: 260 30% 6%; /* Deep dark indigo */
+    --foreground: 260 10% 95%;
+
+    --card: 260 25% 10%; /* Darker card background */
+    --card-foreground: 260 10% 95%;
+
+    --popover: 260 25% 10%;
+    --popover-foreground: 260 10% 95%;
+
+    --primary: 271 81% 65%;
+    --primary-foreground: 260 20% 10%;
+
+    --secondary: 260 20% 15%;
+    --secondary-foreground: 271 81% 65%;
+
+    --muted: 260 20% 18%;
+    --muted-foreground: 260 10% 65%;
+
+    --accent: 260 20% 18%;
+    --accent-foreground: 271 81% 65%;
+
+    --border: 260 20% 18%;
+    --input: 260 20% 18%;
+    --ring: 271 81% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-alegreya), serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-in-up {
+  animation: slide-in-up 0.5s ease-out forwards;
+}
+
+@keyframes slide-in-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Custom shadow */
+.shadow-soft {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.logo-outline {
+  text-shadow: 
+    -2px -2px 0 #fff,  
+     2px -2px 0 #fff,
+    -2px  2px 0 #fff,
+     2px  2px 0 #fff,
+    -3px -3px 0 rgba(255,255,255,0.5),
+     3px  3px 0 rgba(255,255,255,0.5);
+}
+
+.dark .logo-outline {
+  text-shadow: 
+    -2px -2px 0 #fff,  
+     2px -2px 0 #fff,
+    -2px  2px 0 #fff,
+     2px  2px 0 #fff;
+}
