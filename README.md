@@ -146,10 +146,8 @@ SEHATERA dikembangkan **khusus untuk keperluan P2MW dan akademik**.
 
 ---
 
-<hr/>
-
 <p align="center">
-  💚 <strong>Made with Care for Elderly Well-Being</strong><br/><br/>
+ 💜 <strong>Made with Care for Elderly Well-Being</strong><br/><br/>
   Prototype P2MW — Teknik Informatika<br/>
   Universitas Sam Ratulangi
 </p>
