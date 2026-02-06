@@ -1,194 +1,117 @@
-<p align="center">
-  <img src="assets/logo.png" alt="SEHATERA Logo" width="140"/>
-</p>
-
-<h1 align="center">🌿 SEHATERA</h1>
+# 💜 **SEHATERA**
+### *Platform Pendampingan Sosial & Kesehatan Mental Lansia*
 
 <p align="center">
-  <strong>Social & Emotional Health Assistant for Elderly</strong><br/>
-  AI-Powered Elderly Companion Platform (Prototype)
+  <img src="assets/logo.png" alt="SEHATERA Logo" width="180"/>
 </p>
 
 <p align="center">
-  Prototipe platform pendampingan sosial lansia berbasis komunitas, relawan, dan kecerdasan buatan (AI)<br/>
-  yang dikembangkan dalam rangka <strong>Program P2MW</strong>.
+  Platform prototipe berbasis web untuk mendampingi lansia agar tetap sehat secara sosial dan mental melalui komunitas, relawan, dan teknologi AI.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-15.3.8-black" />
-  <img src="https://img.shields.io/badge/React-18.3.1-blue" />
-  <img src="https://img.shields.io/badge/TypeScript-5.x-blue" />
-  <img src="https://img.shields.io/badge/Firebase-11.9.1-orange" />
-  <img src="https://img.shields.io/badge/TailwindCSS-3.4.1-teal" />
-  <img src="https://img.shields.io/badge/shadcn%2Fui-UI%20Components-lightgrey" />
-  <img src="https://img.shields.io/badge/Genkit-1.14.1-purple" />
-</p>
-
-<p align="center">
-  📄 <a href="#-deskripsi-proyek">Deskripsi</a> •
-  ✨ <a href="#-fitur-utama">Fitur</a> •
-  👥 <a href="#-peran-pengguna">Pengguna</a> •
-  ⚠️ <a href="#-catatan-penting-disclaimer">Disclaimer</a>
+  <img src="https://img.shields.io/badge/Status-Prototype-orange"/>
+  <img src="https://img.shields.io/badge/Program-P2MW-blue"/>
+  <img src="https://img.shields.io/badge/Target-Lansia-purple"/>
 </p>
 
 ---
 
-## 📝 Deskripsi Proyek
+## 📝 **Deskripsi Proyek**
 
-**SEHATERA** adalah sebuah **platform prototipe pendampingan sosial bagi lansia** yang dirancang untuk membantu
-mengurangi rasa kesepian, menjaga ketajaman mental, serta meningkatkan kualitas hidup lansia melalui
-interaksi komunitas, pendampingan relawan, dan pemanfaatan **Artificial Intelligence (AI)**.
+**SEHATERA** adalah platform **pendampingan sosial bagi lansia** yang dirancang untuk membantu mengurangi rasa kesepian serta menjaga ketajaman mental melalui **interaksi komunitas, sesi pendampingan relawan, dan konten berbasis AI**.
 
-Proyek ini dikembangkan sebagai bagian dari **Program Pembinaan Mahasiswa Wirausaha (P2MW)** dan
-berfokus pada solusi inovatif di bidang **kesehatan sosial dan emosional lansia**.  
-SEHATERA dikembangkan sebagai **prototipe konseptual**, bukan produk komersial.
+Proyek ini dikembangkan sebagai **prototipe kompetisi P2MW**, dengan fokus pada pengalaman pengguna lansia yang **ramah, sederhana, dan inklusif**.
 
 ---
 
-## ✨ Fitur Utama
+## 🧑‍🦳 **Fitur untuk Lansia**
 
-### 🏠 Beranda Lansia
-Beranda Lansia merupakan **halaman utama** yang pertama kali diakses oleh pengguna lansia.  
-Halaman ini berfungsi sebagai pusat navigasi dan ringkasan layanan.
+### 🏠 **Beranda Lansia**
+Halaman utama yang menjadi pusat aktivitas lansia.  
+Di dalam halaman ini terdapat **dua fitur utama** berikut:
 
-Fitur yang tersedia pada Beranda Lansia meliputi:
-- Ringkasan fitur utama SEHATERA
-- Akses cepat ke halaman Layanan Lansia
-- Akses ke komunitas dan sesi pendampingan
-- Tampilan antarmuka sederhana dan ramah lansia
-
-![Beranda Lansia](assets/Beranda_Lansia.png)
-
----
-
-### 🧠 Layanan Lansia (AI Curated Content & Brain Training)
-Halaman **Layanan Lansia** merupakan pusat konten dan aktivitas berbasis AI yang ditujukan untuk
-menjaga kesehatan mental dan emosional lansia.
-
-Di dalam halaman ini terdapat dua fitur utama:
-
-#### 🧠 AI Curated Content
+#### 🧠 **AI Curated Content**
 Konten harian yang dihasilkan secara otomatis menggunakan **Gemini AI**, meliputi:
 - Artikel ringan dan informatif
 - Kutipan inspiratif harian
 - Rekomendasi konten berdasarkan minat dan suasana hati lansia
 
-#### 🧩 Daily Brain Training
-Fitur latihan otak harian untuk menjaga daya ingat dan konsentrasi, berupa:
-- Puzzle interaktif
-- Kuis ringan
+Konten disajikan dengan bahasa sederhana dan visual yang ramah lansia.
 
-Seluruh konten disajikan dengan bahasa sederhana dan tampilan visual yang ramah lansia.
-
-![Layanan Lansia](assets/Layanan_Lansia.png)
+![Beranda Lansia](assets/Beranda_Lansia.png)
 
 ---
 
-### 👥 Community Hub Lansia
-Community Hub berfungsi sebagai ruang interaksi sosial antar lansia berdasarkan minat dan hobi.
+#### 🧩 **Daily Brain Training**
+Fitur latihan otak harian untuk menjaga daya ingat dan konsentrasi lansia, berupa:
+- Puzzle interaktif
+- Kuis ringan
 
-Fitur Community Hub meliputi:
-- Grup diskusi berbasis hobi (Berkebun, Musik Lawas, dll)
-- Forum berbagi cerita dan pengalaman hidup
-- Interaksi sosial yang mendorong rasa kebersamaan
+Dirancang agar menyenangkan, tidak membebani, dan mudah dipahami.
+
+![Daily Brain Training](assets/Beranda_Lansia.png)
+
+---
+
+### 🤝 **Komunitas Lansia**
+Forum diskusi dan grup berbasis minat untuk mendorong interaksi sosial antar lansia.
 
 ![Komunitas Lansia](assets/Komunitas_Lansia.png)
 
 ---
 
-### 📅 Session Booking & Scheduling
-Fitur ini memungkinkan lansia melakukan pemesanan sesi pendampingan dengan relawan secara mandiri.
+### 📞 **Layanan Pendampingan (Session Booking)**
+Alur pemesanan sesi pendampingan:
+1. Memilih layanan (Chat / Voice Call / Video Call)
+2. Memilih relawan
+3. Menentukan tanggal & waktu
+4. Pembayaran simulasi
 
-Jenis sesi yang tersedia:
-- Chat
-- Voice Call
-- Video Call
-
-Sistem ini membantu lansia mendapatkan pendampingan emosional secara terjadwal dan terstruktur.
-
-![Jadwal Relawan](assets/Jadwal_Relawan.png)
+![Layanan Lansia](assets/Layanan_Lansia.png)
 
 ---
 
-### 💳 Payment Gateway Simulation
-Simulasi proses checkout layanan pendampingan dengan metode:
-- QRIS
-- Transfer Bank
+## 🧑‍💼 **Fitur untuk Relawan**
 
-⚠️ Fitur ini **bersifat simulasi** dan tidak terhubung dengan sistem pembayaran nyata.
-
----
-
-## 👥 Peran Pengguna
-
-### 👴 Lansia (Elderly)
-- Mengakses konten AI harian
-- Mengikuti komunitas berbasis minat
-- Bermain puzzle & kuis
-- Memesan sesi pendampingan relawan
-
----
-
-### 🧑‍🤝‍🧑 Relawan (Volunteer)
-Relawan berperan sebagai pendamping emosional lansia.
-
-Fitur yang tersedia untuk relawan meliputi:
-
-#### 📊 Dashboard Relawan
-Menampilkan ringkasan aktivitas relawan, permintaan sesi masuk, dan jadwal pendampingan.
-
+### 📊 **Dashboard Relawan**
 ![Dashboard Relawan](assets/Dashboard_Relawan.png)
 
 ---
 
-#### 📋 Riwayat Sesi Pendampingan
-Menampilkan histori sesi pendampingan yang telah dilakukan oleh relawan.
-
-![Riwayat Sesi Relawan](assets/RiwayatSesi_Relawan.png)
+### 🗓️ **Manajemen Jadwal**
+![Jadwal Relawan](assets/Jadwal_Relawan.png)
 
 ---
 
-#### ⚙️ Pengaturan Akun Relawan
-Relawan dapat mengelola:
-- Profil akun
-- Preferensi pendampingan
-- Informasi ketersediaan waktu
-
+### ⚙️ **Pengaturan Relawan**
 ![Pengaturan Relawan](assets/Pengaturan_Relawan.png)
 
 ---
 
-## 👨‍💻 Tim Pengembang
-
-Mahasiswa **Program Studi Teknik Informatika**  
-**Universitas Sam Ratulangi**
-
-- **ALIF FIRDAUS PUTRA MALLYSA**
-- **BRANDO MATHIAS ZUSRIADI**
-- **PHILIA SLAVKA EUNIKE MAILANGKAY**
-- **SYIFABELA SURATINOYO**
+### 🕘 **Riwayat Sesi**
+![Riwayat Sesi Relawan](assets/RiwayatSesi_Relawan.png)
 
 ---
 
-## ⚠️ Catatan Penting (Disclaimer)
+## 👨‍💻 **Tim Pengembang**
+- ALIF FIRDAUS PUTRA MALLYSA
+- BRANDO MATHIAS ZUSRIADI
+- PHILIA SLAVKA EUNIKE MAILANGKAY
+- SYIFABELA SURATINOYO
 
-🚨 **APLIKASI INI MERUPAKAN PROTOTIPE**
-
-SEHATERA dikembangkan **khusus untuk keperluan P2MW dan akademik**.
-- Tidak terintegrasi dengan sistem layanan kesehatan resmi
-- Tidak digunakan untuk layanan medis atau psikologis nyata
-- Seluruh data bersifat simulasi
+Universitas Sam Ratulangi — Teknik Informatika
 
 ---
 
-<hr/>
+## ⚠️ **Disclaimer**
+SEHATERA merupakan **prototipe akademik (P2MW)** dan **tidak digunakan sebagai layanan resmi**.
 
-<p align="center">
-  💚 <strong>Made with Care for Elderly Well-Being</strong><br/><br/>
-  Prototype P2MW — Teknik Informatika<br/>
-  Universitas Sam Ratulangi
-</p>
+---
 
+## ❤️ Footer
 <p align="center">
-  © 2025 SEHATERA — Academic Prototype Only
+  Made with 💜 for our beloved elders  
+  <br/>
+  © 2025 SEHATERA Team — All Rights Reserved
 </p>
